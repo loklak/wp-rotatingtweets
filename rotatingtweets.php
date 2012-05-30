@@ -54,7 +54,6 @@ class rotatingtweets_Widget extends WP_Widget {
 		$tw_exclude_replies = $instance['tw_exclude_replies'];
 		$tw_tweet_count = $instance['tw_tweet_count'];
 		$tw_show_follow = $instance['tw_show_follow'];
-		echo "<!-- ";print_r($instance);echo "-->";
 		$tweets = rotatingtweets_get_tweets($tw_screen_name,$tw_include_rts,$tw_exclude_replies,$tw_tweet_count);
 
         ?>
