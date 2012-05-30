@@ -1,5 +1,5 @@
 === Rotating Tweets widget and shortcode ===
-Contributors: mpntod, jacobp
+Contributors: mpntod
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9XCNM4QSVHYT8
 Tags: shortcode,widget,twitter,rotating,rotate
 Requires at least: 2.6
