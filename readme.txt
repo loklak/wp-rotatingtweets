@@ -65,6 +65,6 @@ Fixed a problem with cacheing
 First published version
 
 == Screenshots ==
-1. You can add rotating tweets to a post like this:
-2. Or add them via a widget:
-3. This animation is slightly fast, but gives a sense of what you get:
+1. This animation is slightly fast, but gives a sense of what you get:
+2. You can add rotating tweets to a post like this:
+3. Or add them via a widget:
