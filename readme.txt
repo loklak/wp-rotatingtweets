@@ -40,11 +40,11 @@ In most cases, each use (or "instance") of this plug-in gets data from Twitter e
 
 == Upgrade notice ==
 = 0.30 =
-Fixes bug - problem with 'get_object_vars()' on line 193
+Fixes bug - problem with `get_object_vars()` on line 193
 
 == Changelog ==
 = 0.30 =
-Fixes bug - problem with 'get_object_vars()' on line 193
+Fixes bug - problem with `get_object_vars()` on line 193
 
 = 0.29 =
 Better handling of retweets. No longer cuts off the end of the text on longer RTs.
