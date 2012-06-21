@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: shortcode,widget,twitter,rotating,rotate,rotator,tweet,tweets
 Requires at least: 2.6
 Tested up to: 3.4
-Stable tag: 0.40
+Stable tag: 0.42
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,10 +40,13 @@ But you may just decide to use the 'Rotating Tweets' widget!
 In most cases, each use (or "instance") of this plug-in gets data from Twitter every 2 minutes. The exception is when two or more instances share the same settings (screen name etc.), in which case they share the same data rather than each calling it separately.
 
 == Upgrade notice ==
-= 0.40 =
-Added ability to alter speed of rotation
+= 0.42 =
+Fixed major bug causing crashes when Twitter goes down
 
 == Changelog ==
+= 0.42 =
+Fixed major bug causing crashes when Twitter goes down
+
 = 0.40 =
 Added ability to alter speed of rotation
 
