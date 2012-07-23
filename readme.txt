@@ -1,14 +1,14 @@
 === Rotating Tweets widget and shortcode ===
 Contributors: mpntod
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9XCNM4QSVHYT8
-Tags: shortcode,widget,twitter,rotating,rotate,rotator,tweet,tweets
+Tags: shortcode,widget,twitter,rotating,rotate,rotator,tweet,tweets,animation,jquery
 Requires at least: 2.6
 Tested up to: 3.4
 Stable tag: 0.471
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Replaces a shortcode such as [rotatingtweets screen_name='your_twitter_name'], or a widget, with a rotating tweets display 
+Displays an animated rotation of your latest tweets via widgets or shortcodes such as [rotatingtweets screen_name='your_twitter_name'] 
 
 == Description ==
 * Replaces a [shortcode](http://codex.wordpress.org/Shortcode) such as `[rotatingtweets screen_name='your_twitter_name']`, or a [widget](http://codex.wordpress.org/WordPress_Widgets), with a rotating display of your most recent tweets
