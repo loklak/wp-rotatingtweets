@@ -8,7 +8,7 @@ Stable tag: 0.471
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Displays an animated rotation of the latest tweets on a Twitter account via widget or shortcode such as [rotatingtweets screen_name='your_name']
+Displays animated rotation of latest tweets on a Twitter account via widget or shortcode such as [rotatingtweets screen_name='your_name']
 
 == Description ==
 * Replaces a [shortcode](http://codex.wordpress.org/Shortcode) such as `[rotatingtweets screen_name='your_twitter_name']`, or a [widget](http://codex.wordpress.org/WordPress_Widgets), with a rotating display of your most recent tweets
