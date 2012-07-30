@@ -29,7 +29,7 @@ If you'd like to see what it looks like in action, you can [see the plug-in work
 = Set-up =
 Options include:
 
-1. Going to the Widgets menu on the admin page and adding the Rotating Tweets widget
+1. Going to the Widgets menu on the admin page and adding the Rotating Tweets widget. Options include the name of the Twitter account to show, whether to show retweets and the speed of rotation.
 1. Using the basic Rotating Tweets shortcode, for example `[rotatingtweets screen_name='mpntod']`
 1. Using a more complicated Rotating Tweets shortcode, for example `[rotatingtweets screen_name='mpntod' include_rts='1' tweet_count='7' timeout='3000']`
 
