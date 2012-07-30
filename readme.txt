@@ -28,12 +28,14 @@ If you'd like to see what it looks like in action, you can [see the plug-in work
 
 = Set-up =
 Options include:
+
 1. Going to the Widgets menu on the admin page and add the Rotating Tweets widget
 1. Using the basic Rotating Tweets shortcode, for example `[rotatingtweets screen_name='mpntod']`
 1. Using a more complicated shortcode, for example `[rotatingtweets screen_name='mpntod' include_rts='1' tweet_count='7' timeout='3000']`
 
 = Variables =
 Possible variables for the shortcode include:
+
 * `screen_name` = Twitter user name - required
 * `include_rts` = `'0'` or `'1'` - include retweets - optional - default is `'0'`
 * `exclude_replies` = `'0'` or `'1'` - exclude replies - optional - default is `'0'`
