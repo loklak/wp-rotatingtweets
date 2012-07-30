@@ -100,5 +100,5 @@ First published version
 
 == Screenshots ==
 1. This animation is slightly faster than the default setting, but gives a sense of what you get:
-2. You can add rotating tweets to a post like this:
-3. Or add them via a widget:
+2. You can add rotating tweets via a Widget:
+3. Or by using a shortcode:
