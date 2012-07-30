@@ -31,7 +31,7 @@ Options include:
 
 1. Going to the Widgets menu on the admin page and adding the Rotating Tweets widget
 1. Using the basic Rotating Tweets shortcode, for example `[rotatingtweets screen_name='mpntod']`
-1. Using a more complicated shortcode, for example `[rotatingtweets screen_name='mpntod' include_rts='1' tweet_count='7' timeout='3000']`
+1. Using a more complicated Rotating Tweets shortcode, for example `[rotatingtweets screen_name='mpntod' include_rts='1' tweet_count='7' timeout='3000']`
 
 = Variables =
 Possible variables for the shortcode include:
