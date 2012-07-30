@@ -21,20 +21,27 @@ Widget and/or shortcode to show your latest tweets one at a time an animated rot
 
 If you'd like to see what it looks like in action, you can [see the plug-in working here](http://www.martintod.org.uk/2012/05/29/new-twitter-plugin-to-show-tweets-in-rotation/).
 == Installation ==
+= Installation =
 1. Upload the contents of `rotatingtweets.zip` to the `/wp-content/plugins/` directory or use the Wordpress installer
 1. Activate the plugin through the 'Plugins' menu in WordPress
 1. Place a shortcode such `[rotatingtweets screen_name='mpntod']` in your post or page, or use a widget
 
-Possible variables for the shortcode include:
+= Set-up =
+Options include:
+1. Going to the Widgets menu on the admin page and add the Rotating Tweets widget
+2. Using the basic Rotating Tweets shortcode, for example:
+`[rotatingtweets screen_name='mpntod']`
+3. Using a more complicated shortcode, for example:
+`[rotatingtweets screen_name='mpntod' include_rts='1' tweet_count='7' timeout='3000']`
 
+= Variables =
+Possible variables for the shortcode include:
 * `screen_name` = Twitter user name - required
 * `include_rts` = `'0'` or `'1'` - include retweets - optional - default is `'0'`
 * `exclude_replies` = `'0'` or `'1'` - exclude replies - optional - default is `'0'`
 * `tweet_count` = number of tweets to show - optional - default is `5`
 * `show_follow` = `'0'` or `'1'` - show follow button - optional - default is `'0'`
 * `timeout` = time that each tweet is shown in milliseconds - optional - default is `'4000'` (i.e. 4 seconds)
-
-But you may just decide to use the 'Rotating Tweets' widget!
 
 == Frequently Asked Questions ==
 = How often does the plug-in call Twitter =
