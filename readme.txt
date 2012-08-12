@@ -58,11 +58,11 @@ although the only one you *have* to have is `screen_name`.
 In most cases, each use (or "instance") of this plug-in gets data from Twitter every 2 minutes. The exception is when two or more instances share the same settings (screen name etc.), in which case they share the same data rather than each calling it separately.
 
 == Upgrade notice ==
-= 0.502
+= 0.502 =
 Javascript fix for zero height tweets problem
 
 == Changelog ==
-= 0.502
+= 0.502 =
 Javascript fix for zero height tweets problem
 
 = 0.500 =
