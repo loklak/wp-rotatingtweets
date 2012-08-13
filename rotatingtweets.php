@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Rotating Tweets widget & shortcode
+Plugin Name: Rotating Tweets (Twitter widget & shortcode)
 Description: Replaces a shortcode such as [rotatingtweets userid='your_twitter_name'], or a widget, with a rotating tweets display 
 Version: 0.502
 Author: Martin Tod

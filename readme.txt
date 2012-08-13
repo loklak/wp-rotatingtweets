@@ -1,4 +1,4 @@
-=== Rotating Tweets widget and shortcode ===
+=== Rotating Tweets (Twitter widget and shortcode) ===
 Contributors: mpntod
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9XCNM4QSVHYT8
 Tags: shortcode,widget,twitter,rotating,rotate,rotator,tweet,tweets,animation,jquery,jquery cycle,cycle
