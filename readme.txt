@@ -1,26 +1,28 @@
-=== Rotating Tweets widget and shortcode ===
+=== Rotating Tweets (Twitter widget and shortcode) ===
 Contributors: mpntod
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=9XCNM4QSVHYT8
-Tags: shortcode,widget,twitter,rotating,rotate,rotator,tweet,tweets,animation,jquery,jquery cycle,cycle
+Tags: shortcode,widget,twitter,rotating,rotate,rotator,tweet,tweets,animation,jquery,jquery cycle,cycle,multilingual
 Requires at least: 2.6
-Tested up to: 3.4
-Stable tag: 0.490
+Tested up to: 3.4.1
+Stable tag: 0.505
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Widget and/or shortcode to show your latest tweets one at a time an animated rotation
+Twitter widget and shortcode to show your latest tweets one at a time an animated rotation
 
 == Description ==
-* Replaces a [shortcode](http://codex.wordpress.org/Shortcode) such as `[rotatingtweets screen_name='your_twitter_name']`, or a [widget](http://codex.wordpress.org/WordPress_Widgets), with a rotating display of your most recent tweets
-* Space efficient - instead of showing all your tweets at once, shows one at a time and then smoothly replaces it with the next one. After showing all your tweets, loops back to the beginning again.
-* Reliable - keeps showing your latest Tweets even if the Twitter website is down.
-* Customisable - you decide whose tweets to show, how many to show, whether to include retweets and replies, and whether to show a follow button. You can also decide how quickly the tweets rotate.
+* **Replaces a [shortcode](http://codex.wordpress.org/Shortcode) such as `[rotatingtweets screen_name='your_twitter']`, or a [widget](http://codex.wordpress.org/WordPress_Widgets), with a rotating display of your most recent tweets**
+* **Space efficient** - instead of showing all your tweets at once, shows one at a time and then smoothly replaces it with the next one. After showing all your tweets, loops back to the beginning again.
+* **Reliable** - keeps showing your latest Tweets even if the Twitter website is down.
+* **Customisable** - you decide whose tweets to show, how many to show, whether to include retweets and replies, and whether to show a follow button. You can also decide how quickly the tweets rotate and what type of animation to use.
 * Gives you the option to show a fully customisable Twitter 'follow' button
 * Replaces [t.co](http://t.co) links with the original link
 * Caches the most recent data from Twitter to avoid problems with rate limiting
 * Uses [jQuery](http://jquery.com/) and [jQuery.Cycle](http://jquery.malsup.com/cycle/) to produce a nice smooth result.
+* **Multi-lingual** - now set up to be multi-lingual. The Twitter 'follow' button is automatically translated if Twitter has made the appropriate language available. If you want to volunteer to create a language pack to translate all the other text in the plugin, that would be great! If you can send the accompanying [gettext PO and MO files](http://codex.wordpress.org/Translating_WordPress) to [me](http://www.martintod.org.uk/contact-martin/), I will then share them with everyone else. You can download [the latest POT file](http://plugins.svn.wordpress.org/rotatingtweets/trunk/languages/rotatingtweets.pot), and [PO files in each language](http://plugins.svn.wordpress.org/rotatingtweets/trunk/languages/) from this site. I found [Poedit](http://www.poedit.net/) rather useful for translation and creation of PO and MO files.
 
-If you'd like to see what it looks like in action, you can [see the plug-in working here](http://www.martintod.org.uk/2012/05/29/new-twitter-plugin-to-show-tweets-in-rotation/).
+If you'd like to see what the plug-in looks like in action, you can [see the plug-in working here](http://www.martintod.org.uk/2012/05/29/new-twitter-plugin-to-show-tweets-in-rotation/).
+
 == Installation ==
 = Installation =
 1. Upload the contents of `rotatingtweets.zip` to the `/wp-content/plugins/` directory or use the Wordpress installer
@@ -45,18 +47,37 @@ Possible variables for the shortcode include:
 * `timeout` = time that each tweet is shown in milliseconds - optional - default is `'4000'` (i.e. 4 seconds)
 * `no_show_count` = `'0'` or `'1'` - remove the follower count from the Twitter follow button - optional - default is `'0'`
 * `no_show_screen_name` = `'0'` or `'1'` - remove the screen name from the Twitter follow button - optional - default is `'0'`
+* `show_meta_timestamp` = `'0'` or `'1'` - show the time and date of each tweet - optional - default is `'1'`
+* `show_meta_screen` = `'0'` or `'1'` - show who posted each tweet - optional - default is `'1'`
+* `show_meta_via` = `'0'` or `'1'` - show how each tweet was posted - optional - default is `'1'`
+* `show_meta_reply_retweet_favorite` = `'0'` or `'1'` - show 'reply', 'retweet' and 'favorite' buttons - optional - default is `'0'`
+* `rotation_type` = any of the options listed on the [jQuery.cycle website](http://jquery.malsup.com/cycle/browser.html) - default is `'scrollUp'`
+
+although the only one you *have* to have is `screen_name`.
 
 == Frequently Asked Questions ==
 = How often does the plug-in call Twitter =
 In most cases, each use (or "instance") of this plug-in gets data from Twitter every 2 minutes. The exception is when two or more instances share the same settings (screen name etc.), in which case they share the same data rather than each calling it separately.
 
 == Upgrade notice ==
-= 0.49 =
-Lets you customise the Twitter 'follow' button. Fixes problem with media links. Sorts problem of overlong links reshaping widgets.
+= 0.505 =
+Minimised Javascript. Set-up for I18n.  Includes Javascript fix for zero height tweets problem.
 
 == Changelog ==
-= 0.49 =
-Lets you customise the Twitter 'follow' button
+= 0.505 =
+Minimised Javascript. Set-up for I18n.
+
+= 0.502 =
+Javascript fix for zero height tweets problem
+
+= 0.500 =
+Adds options for how tweet information is displayed and how the tweet rotates.
+
+= 0.492 =
+Solves `Cannot use string offset as an array` error on line 232
+
+= 0.491 =
+Lets you customise the Twitter 'follow' button. Fixes problem with media links. Sorts problem of overlong links reshaping widgets.
 
 = 0.48 =
 More detailed error messages for Wordpress installations unable to access Twitter.
