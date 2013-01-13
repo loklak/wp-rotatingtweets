@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Rotating Tweets (Twitter widget & shortcode)
-Description: Replaces a shortcode such as [rotatingtweets userid='your_twitter_name'], or a widget, with a rotating tweets display 
+Description: Replaces a shortcode such as [rotatingtweets screen_name='your_twitter_name'], or a widget, with a rotating tweets display 
 Version: 0.611
 Text Domain: rotatingtweets
 Author: Martin Tod
@@ -24,7 +24,7 @@ License: GPL2
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 /**
- * Replaces a shortcode such as [rotatingtweets userid='your_twitter_name'], or a widget, with a rotating tweets display 
+ * Replaces a shortcode such as [rotatingtweets screen_name='your_twitter_name'], or a widget, with a rotating tweets display 
  *
  * @package WordPress
  * @since 3.3.2
