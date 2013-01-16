@@ -48,7 +48,7 @@ Possible variables for the shortcode include:
 * `no_show_count` = `'0'` or `'1'` - remove the follower count from the Twitter follow button - optional - default is `'0'`
 * `no_show_screen_name` = `'0'` or `'1'` - remove the screen name from the Twitter follow button - optional - default is `'0'`
 * `show_meta_timestamp` = `'0'` or `'1'` - show the time and date of each tweet - optional - default is `'1'`
-* `show_meta_screen` = `'0'` or `'1'` - show who posted each tweet - optional - default is `'1'`
+* `show_meta_screen_name` = `'0'` or `'1'` - show who posted each tweet - optional - default is `'1'`
 * `show_meta_via` = `'0'` or `'1'` - show how each tweet was posted - optional - default is `'1'`
 * `show_meta_reply_retweet_favorite` = `'0'` or `'1'` - show 'reply', 'retweet' and 'favorite' buttons - optional - default is `'0'`
 * `rotation_type` = any of the options listed on the [jQuery.cycle website](http://jquery.malsup.com/cycle/browser.html) - default is `'scrollUp'`
