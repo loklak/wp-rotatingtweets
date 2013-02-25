@@ -99,7 +99,7 @@ Adjustment to javascript and CSS to cope with long links or long words
 Very minor mistake in rendering code
 
 = 0.700 =
-**Important upgrade needed for Rotating Tweets to keep working after March 2013. Supports version 1.1 of the Twitter API. **
+**Important upgrade needed for Rotating Tweets to keep working after March 2013. Supports version 1.1 of the Twitter API.**
 
 = 0.625 =
 Enabled users to make all links open in a new tab or window
