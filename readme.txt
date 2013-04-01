@@ -53,43 +53,38 @@ Options include:
 1. Using the basic Rotating Tweets shortcode, for example `[rotatingtweets screen_name='mpntod']`
 1. Using a more complicated Rotating Tweets shortcode, for example `[rotatingtweets screen_name='mpntod' include_rts='1' tweet_count='7' timeout='3000']`
 
-= Variables =
+= Shortcode variables =
 Possible variables for the shortcode include:
 
-= Required settings =
-At least one of the following three settings is required for the short-code to function:
-
-* `screen_name` = Twitter user name
-* `url` = Twitter user URL. If `screen_name` is empty and this link is valid, `screen_name` will be set to the user name included in `url`
-* `search` = a term to search for
-
-= Twitter options =
-* `include_rts` = `'0'` or `'1'` - include retweets - optional - default is `'0'`
-* `exclude_replies` = `'0'` or `'1'` - exclude replies - optional - default is `'0'`
-* `tweet_count` = number of tweets to show - optional - default is `5`
-* `get_favorites` = `'0'` or `'1'` - show someone's favorites rather than their timeline - default is `'0'`
-* `list` = `'list-slug'` - the 'slug' used by someone's list (something like `my-list`)
-= Display options =
-* `official_format` = `'1'` or `'2'` - show official format - optional - default is `'0'`
-* `timeout` = time that each tweet is shown in milliseconds - optional - default is `'4000'` (i.e. 4 seconds)
-* `links_in_new_window` = `'0'` or `'1'` - show links in a new tab or window - default is `'0'`
-* `rotation_type` = any of the options listed on the [jQuery.cycle website](http://jquery.malsup.com/cycle/browser.html) - default is `'scrollUp'`
-* `url_length` = sets the length that the URL should be trimmed to...
-* `show_meta_timestamp` = `'0'` or `'1'` - show the time and date of each tweet - optional - default is `'1'`
-* `show_meta_screen_name` = `'0'` or `'1'` - show who posted each tweet - optional - default is `'1'`
-* `show_meta_via` = `'0'` or `'1'` - show how each tweet was posted - optional - default is `'1'`
-* `show_meta_reply_retweet_favorite` = `'0'` or `'1'` - show 'reply', 'retweet' and 'favorite' buttons - optional - default is `'0'`
-* `show_meta_next_prev` = `'0'` or `'1'` - show 'next', 'prev' links - optional - default is `'0'`
-	* `next` = content for the next button (default `'next'`)
-	* `prev` = content for the prev button (default `'prev'`)
-	* `middot` = content for the space between the buttons (default `' &amp;middot; '`)
-	* `np_pos` = position for 'next' and 'prev' buttons - `'top'` or `'bottom'` (default `'top'`)
-= Twitter follow button =
-* `show_follow` = `'0'` or `'1'` - show follow button - optional - default is `'0'`
-* `no_show_count` = `'0'` or `'1'` - remove the follower count from the Twitter follow button - optional - default is `'0'`
-* `no_show_screen_name` = `'0'` or `'1'` - remove the screen name from the Twitter follow button - optional - default is `'0'`
-
-
+* *Required settings* - at least one of the following three settings is required for the short-code to function:
+	* `screen_name` = Twitter user name
+	* `url` = Twitter user URL. If `screen_name` is empty and this link is valid, `screen_name` will be set to the user name included in `url`
+	* `search` = a term to search for
+* *Twitter options*
+	* `include_rts` = `'0'` or `'1'` - include retweets - optional - default is `'0'`
+	* `exclude_replies` = `'0'` or `'1'` - exclude replies - optional - default is `'0'`
+	* `tweet_count` = number of tweets to show - optional - default is `5`
+	* `get_favorites` = `'0'` or `'1'` - show someone's favorites rather than their timeline - default is `'0'`
+	* `list` = `'list-slug'` - the 'slug' used by someone's list (something like `my-list`)
+* *Display options*
+	* `official_format` = `'1'` or `'2'` - show official format - optional - default is `'0'`
+	* `timeout` = time that each tweet is shown in milliseconds - optional - default is `'4000'` (i.e. 4 seconds)
+	* `links_in_new_window` = `'0'` or `'1'` - show links in a new tab or window - default is `'0'`
+	* `rotation_type` = any of the options listed on the [jQuery.cycle website](http://jquery.malsup.com/cycle/browser.html) - default is `'scrollUp'`
+	* `url_length` = sets the length that the URL should be trimmed to...
+	* `show_meta_timestamp` = `'0'` or `'1'` - show the time and date of each tweet - optional - default is `'1'`
+	* `show_meta_screen_name` = `'0'` or `'1'` - show who posted each tweet - optional - default is `'1'`
+	* `show_meta_via` = `'0'` or `'1'` - show how each tweet was posted - optional - default is `'1'`
+	* `show_meta_reply_retweet_favorite` = `'0'` or `'1'` - show 'reply', 'retweet' and 'favorite' buttons - optional - default is `'0'`
+	* `show_meta_next_prev` = `'0'` or `'1'` - show 'next', 'prev' links - optional - default is `'0'`
+		* `next` = content for the next button (default `'next'`)
+		* `prev` = content for the prev button (default `'prev'`)
+		* `middot` = content for the space between the buttons (default `' &amp;middot; '`)
+		* `np_pos` = position for 'next' and 'prev' buttons - `'top'` or `'bottom'` (default `'top'`)
+* *Twitter follow button*
+	* `show_follow` = `'0'` or `'1'` - show follow button - optional - default is `'0'`
+	* `no_show_count` = `'0'` or `'1'` - remove the follower count from the Twitter follow button - optional - default is `'0'`
+	* `no_show_screen_name` = `'0'` or `'1'` - remove the screen name from the Twitter follow button - optional - default is `'0'`
 
 == Credits ==
 Most of this is my own work, but special thanks are owed to:
@@ -143,7 +138,7 @@ If there is only one copy of `jquery` and of `jquery.cycle` on your page, the be
 
 == Changelog ==
 = 1.4.0 =
-* Support for search, favorites and lists voa Rotating Tweets widgets.
+* Support for search, favorites and lists via Rotating Tweets widgets.
 
 = 1.3.18 =
 * Improved and clearer error messages. 
