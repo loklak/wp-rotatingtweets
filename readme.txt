@@ -143,9 +143,7 @@ If there is only one copy of `jquery` and of `jquery.cycle` on your page, the be
 
 = What can I do if I get the WordPress error code: `http_request_failed - name lookup timed out`? =
 
-Try installing the [Core Control plug-in](http://wordpress.org/extend/plugins/core-control/) and disabling cURL.
-
-You can read more about the problem via [this support page](http://wordpress.org/support/topic/wp-351-wordpress-error-code-http_request_failed-name-lookup-timed-out).
+Try installing the [Core Control plug-in](http://wordpress.org/extend/plugins/core-control/) and disabling cURL. You can read more about the problem via [this support page](http://wordpress.org/support/topic/wp-351-wordpress-error-code-http_request_failed-name-lookup-timed-out).
 
 Thank you to [darkiko](http://wordpress.org/support/profile/darkiko) for sharing their solution to this problem.
 
