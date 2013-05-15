@@ -27,7 +27,7 @@ Currently the following languages are available:
 
 * US English *(complete)*
 * British English *(complete - mainly changing 'favorite' to 'favourite'!)*
-* Brazilian Portuguese *(complete - many thanks to Felipe Wilmerson for his help on this)*
+* Brazilian Portuguese *(complete - many thanks to Wilmerson Felipe for his help on this)*
 * German *(basic tweet display only)*
 * Spanish *(basic tweet display only)*
 * Italian *(basic tweet display only)*
