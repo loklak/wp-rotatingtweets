@@ -113,6 +113,13 @@ The easiest way is to use a search term like `'from:account1 OR from:account2'`.
 = How often does the plug-in call Twitter =
 In most cases, each use (or "instance") of this plug-in gets data from Twitter every 2 minutes. The exception is when two or more instances share the same settings (screen name etc.), in which case they share the same data rather than each calling it separately.
 
+= My Rotating Tweets are not updating. What can I do? =
+This normally happens if there is an SSL problem. Try going to the settings page and switching off SSL validation.
+
+If this doesn't solve the problem, check your Twitter API key settings.
+
+If neither of these approaches work, Rotating Tweets will normally be reporting the error as a comment in the HTML of your page. This should give you an idea of how to solve the problem.
+
 = The Rotating Tweets are not rotating. What can I do? =
 This normally happens if there is more than one copy of `jQuery` installed on a page - or more than one copy of `jQuery.cycle`.
 
