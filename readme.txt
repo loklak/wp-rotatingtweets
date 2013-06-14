@@ -12,7 +12,7 @@ Twitter widget and shortcode to show your latest tweets one at a time an animate
 
 == Description ==
 * **Replaces a [shortcode](http://codex.wordpress.org/Shortcode) such as `[rotatingtweets screen_name='your_twitter']`, or a [widget](http://codex.wordpress.org/WordPress_Widgets), with a rotating display of your most recent tweets**
-* **Supports v 1.1 of the Twitter API** - yes! it will keep working after [May 2013](https://dev.twitter.com/calendar)
+* **Supports v 1.1 of the Twitter API** - yes! it will keep working after [June 11, 2013](https://dev.twitter.com/calendar)
 * **Space efficient** - instead of showing all your tweets at once, shows one at a time and then smoothly replaces it with the next one. After showing all your tweets, loops back to the beginning again.
 * **Reliable** - keeps showing your latest Tweets even if the Twitter website is down.
 * **Customisable** - you decide whose tweets to show, how many to show, whether to include retweets and replies, and whether to show a follow button. You can also decide how quickly the tweets rotate and what type of animation to use.
