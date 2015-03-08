@@ -73,7 +73,7 @@ Possible variables for the shortcode include:
 	* `offset` = ''number'' - default is `'0'` - enables you to start on a later tweet - `'1'` starts on the 2nd tweet, `'2'` starts on the 3rd tweet, etc.
 * **Display options**
 	* `official_format` = `'1'`, `'2'` or `'custom'` - show one of the two official formats or a custom format if you have written your own `rotatingtweets_display_override()` function - default is `'0'`
-	* `timeout` = time that each tweet is shown in milliseconds - default is `'4000'` (i.e. 4 seconds)
+	* `timeout` = time that each tweet is shown in milliseconds - default is `'4000'` (i.e. 4 seconds). `timeout=0` allows for continuous scrolling.
 	* `speed` = time it takes to change from one tweet to the next in milliseconds - default is `'1000'` (i.e. 1 second)
 	* `links_in_new_window` = `'0'` or `'1'` - show links in a new tab or window - default is `'0'`
 	* `rotation_type` = If you are using version 1 of the JavaScript, you can use any of the options listed on the [jQuery.cycle website](http://jquery.malsup.com/cycle/browser.html) - default is `'scrollUp'.`  If you are using version 2 of the JavaScript, then the options are `'scrollUp'`,`'scrollDown'`,`'scrollHorz'`,`'scrollLeft'`,`'scrollRight'`,`'toss'`,`'scrollVert'`,`'fade'` and `'carousel'`
@@ -190,6 +190,7 @@ You can do this by going to the `rotatingtweets/css` directory and renaming `rot
 * Move to using HTML5 custom data attributes and `data()` functions to transfer variable values to version 1 of JavaScript - including 'speed' variable
 * Addition of 'pager' via `show_meta_pager` and `show_meta_pager_blob` variables
 * Addition of `rtw_hashtag_link` class to hashtag links
+* `timeout=0` now allows continuous scrolling
 * Updating object code for the widget
 
 = 1.7.9 =
