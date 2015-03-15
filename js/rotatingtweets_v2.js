@@ -92,9 +92,6 @@ jQuery(document).ready(function() {
 	},function() {
 		jQuery(this).find('.rtw_intents').hide();
 	});
-	$( '.dropdown-toggle' ).click( function() {
-		jQuery('.rotatingtweets').cycle2('reinit');
-	} );
 });
 /* And call the Twitter script while we're at it! */
 /* Standard script to call Twitter */
