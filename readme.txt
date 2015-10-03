@@ -22,7 +22,7 @@ Twitter widget and shortcode to show your latest tweets one at a time an animate
 * Caches the most recent data from Twitter to avoid problems with rate limiting
 * Uses [jQuery](http://jquery.com/), [jQuery.Cycle](http://jquery.malsup.com/cycle/) and [jQuery.Cycle2](http://jquery.malsup.com/cycle2/) to produce a nice smooth result.
 * Compatible with [W3 Total Cache](https://wordpress.org/plugins/w3-total-cache/).
-* **Multi-lingual** - now set up to be multi-lingual. The Twitter 'follow' button is automatically translated to match your site's language setting [if Twitter has made the appropriate language available](https://dev.twitter.com/docs/api/1.1/get/help/languages). Also uses [Wordpress's multi-lingual capability](http://codex.wordpress.org/I18n_for_WordPress_Developers) to enable translation of all the other text used by the plug-in via language packs.
+* **Multi-lingual** - now set up to be multi-lingual. The Twitter 'follow' button is automatically translated to match your site's language setting [if Twitter has made the appropriate language available](https://dev.twitter.com/docs/api/1.1/get/help/languages). Also uses [Wordpress's multi-lingual capability](http://codex.wordpress.org/I18n_for_WordPress_Developers) to enable translation of all the other text used by the plug-in via [language packs](https://translate.wordpress.org/projects/wp-plugins/rotatingtweets).
 
 Currently the following languages are available:
 
